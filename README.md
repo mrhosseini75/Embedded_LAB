@@ -36,6 +36,8 @@ Peripheral Features
 - Addressable UART modules with FIFO buffers
 - 1 CAN module, 2.0B compliant
 
+*Also you can use the data sheet in the repository to find more information about __dspic30f4011__
+
 Requests
 ===============
 
@@ -50,6 +52,6 @@ Requests
 
 Autors and contact
 ===================
-- __Ali Yousefi__ /email: <aliy98@outlook.com>
+- __Ali Yousefi__  *email: <aliy98@outlook.com>
 
-- __Mohammad Reza Haji Hosseini__ email: - <mrhhosseini75@gmail.com>
+- __Mohammad Reza Haji Hosseini__ *email: - <mrhhosseini75@gmail.com>
