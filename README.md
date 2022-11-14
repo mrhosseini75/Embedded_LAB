@@ -66,6 +66,6 @@ of the LCD range from _0x80_ to _0x8F_, while addresses on the second row range 
 
 Autors and contact
 ===================
-- __Ali Yousefi__  *email: <aliy98@outlook.com>
+- __Ali Yousefi__  **email: <aliy98@outlook.com>
 
-- __Mohammad Reza Haji Hosseini__ *email: - <mrhhosseini75@gmail.com>
+- __Mohammad Reza Haji Hosseini__ **email: <mrhhosseini75@gmail.com>
