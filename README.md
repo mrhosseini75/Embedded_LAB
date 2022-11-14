@@ -9,6 +9,6 @@ Introduction
 
 Autors and contact
 ===================
-- Ali Yousefi <aliy98@outlook.com>
+- Ali Yousefi - <aliy98@outlook.com>
 
-- Mohammad Reza Haji Hosseini <mrhhosseini75@gmail.com>
+- Mohammad Reza Haji Hosseini - <mrhhosseini75@gmail.com>
