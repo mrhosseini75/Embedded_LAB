@@ -54,14 +54,14 @@ Guideline
 
 The following power-up sequence should be observed by the user’s application firmware when writing characters to the LCD:
 
-1. After any reset operation wait 1000 milliseconds to allow the LCD to begin normal operation. The cursor on the LCD will be positioned at the top row on the
+1. After any reset operation wait _1000_ milliseconds to allow the LCD to begin normal operation. The cursor on the LCD will be positioned at the top row on the
 left-most column.
-2. Configure SPI1 module on your dsPIC30F device to operate in 8-bit Master mode. The serial clock may be set for any frequency up to 1 MHz.
-3. To write an ASCII character to the LCD at the location pointed to by the cursor, load the SPIBUF register with the ASCII character byte.
+2. Configure SPI1 module on your _dsPIC30F_ device to operate in 8-bit Master mode. The serial clock may be set for any frequency up to 1 MHz.
+3. To write an **ASCII** character to the LCD at the location pointed to by the cursor, load the SPIBUF register with the ASCII character byte.
 4. After the character is displayed on the LCD, the cursor is automatically relocated to the next position on the LCD.
 5. To reposition the cursor to another column on any of the two rows, write the address of the desired location to the SPIBUF register. Addresses in the first row
-of the LCD range from 0x80 to 0x8F, while addresses on the second row range from 0xC0 through 0xCF.
-6. After 16 characters are written to the first row on the LCD, it is necessary for the user’s application to write the address 0xC0 of the second row to the SPIBUF in order to roll the cursor over to the second row.
+of the LCD range from _0x80_ to _0x8F_, while addresses on the second row range from _0xC0_ through _0xCF_.
+6. After 16 characters are written to the first row on the LCD, it is necessary for the user’s application to write the address _0xC0_ of the second row to the SPIBUF in order to roll the cursor over to the second row.
 7. The user application must wait for a minimum of (8 bits / SPI Frequency) between writing two successive characters or addresses.
 
 Autors and contact
