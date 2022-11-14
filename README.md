@@ -18,13 +18,13 @@ dspic30f4011 kit
 Parametrics
 ------------
 
-- _CPU Type_	                dsPIC® DSC
-- _Program Memory Size(KB)_	  48
-- _Operation Voltage Min.(V)_	2.5
-- _Operation Voltage Max.(V)_	5.5
-- _Pin Count_	                40
-- _Segment LCD_	              0
-- _LCD/Graphics Interface_  	No
+- _CPU Type:_	                dsPIC® DSC
+- _Program Memory Size(KB):_	  48
+- _Operation Voltage Min.(V):_	2.5
+- _Operation Voltage Max.(V):_	5.5
+- _Pin Count:_	                40
+- _Segment LCD:_	              0
+- _LCD/Graphics Interface:_  	No
 
 Peripheral Features
 ---------------------
@@ -50,6 +50,6 @@ Requests
 
 Autors and contact
 ===================
-- Ali Yousefi - <aliy98@outlook.com>
+- __Ali Yousefi__ /email: <aliy98@outlook.com>
 
-- Mohammad Reza Haji Hosseini - <mrhhosseini75@gmail.com>
+- __Mohammad Reza Haji Hosseini__ email: - <mrhhosseini75@gmail.com>
