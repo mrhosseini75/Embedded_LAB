@@ -16,9 +16,12 @@ dspic30f4011 kit
 </p>
 
 | Parametrics                   |
-| -------------   ------------- |
-|CPU Type	        dsPIC® DSC    |
-|CPU Speed (MHz)    	30        |
+| ------------- | --------------|
+|CPU Type	      |  dsPIC® DSC   |
+|CPU Speed (MHz)|    	30        |
+
+
+
 |Program Memory Size(KB)	48    |
 |Multiple Flash Panels	False   |  
 |Temp. Range Min.(C°)	-40       |
