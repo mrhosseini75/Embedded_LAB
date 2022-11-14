@@ -15,6 +15,41 @@ Device
 dspic30f4011 kit
 </p>
 
+| Parametrics                   |
+| -------------   ------------- |
+|CPU Type	        dsPIC® DSC    |
+|CPU Speed (MHz)    	30        |
+|Program Memory Size(KB)	48    |
+|Multiple Flash Panels	False   |  
+|Temp. Range Min.(C°)	-40       |
+|Temp. Range Max.(C°)	125       |
+|Operation Voltage Min.(V)	2.5 |
+|Operation Voltage Max.(V)	5.5 |
+|Pin Count	40                  |
+|Low Power	No                  |
+|Number of Comparators	0       |
+|Number of ADCs	1               |
+|ADC Channels	9                 |
+|Max ADC Resolution (bits)	10  |
+|Max ADC Sampling Rate(ksps)1000|
+|Number of DACs	0               |
+|DAC outputs	0                 |
+|Max DAC Resolution (bits)	0   |
+|Hardware RTCC	No              |
+|Motor Control PWM Channels	6   |
+|SMPS PWM Channels	0           |
+|Number of PWM Time Bases	2     |
+|Output Compare Channels	4     |
+|Number of CAN Modules	1       |
+|Type of CAN module	CAN         |
+|Crypto Engine	No              |
+|Quadrature Encoder Interface (QEI)	1|
+|Segment LCD	0                      |
+|LCD/Graphics Interface	No           |
+|Configurable Logic Cell Modules (CLC /CCL)	0|
+|Peripheral Pin Select (PPS)/Pin Muxing	No   |
+
+
 Requests
 ===============
 
@@ -25,6 +60,7 @@ Requests
 5. On the second row, write ”Char Recv: XXX”, where XXX is the number of characters received from the UART2. (use sprintf(buffer, “%d”, value) to convert an integer to a string to be displayed
 6. Whenever button S5 is pressed, send the current number of chars received to UART2
 7. Whenever button S6 is pressed, clear the first row and reset the characters received counter
+
 
 Autors and contact
 ===================
